@@ -3,24 +3,12 @@
     font-family: sans-serif;
 }
 
-.cab{
-    display: flex;
-    justify-content: left;
-    height: 70px;
-    align-items: center;
-    background-color: rgb(91, 91, 249);
-}
-
-.logo{
-    display: flex;
-    align-items: center;
+.container-fluid{
+    background-color: rgb(73, 157, 254);
 }
 
 .sec{
     margin: 10px;
-}
-
-.logo img{
-    height: 65px;
-    margin-right: 10px;
+    padding: 100px;
+    font-family: sans-serif;
 }
