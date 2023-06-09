@@ -1,0 +1,32 @@
+// Datos de conexión a la base de datos
+$servername = "nombre_servidor";
+$username = "nombre_usuario";
+$password = "contraseña";
+$dbname = "nombre_basededatos";
+
+// Crear la conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Verificar la conexión
+if ($conn->connect_error) {
+    die("Error de conexión: " . $conn->connect_error);
+}
+// Obtener los datos del formulario
+$nombre = $_POST['nombre'
+];
+$email = $_POST['email'
+];
+$contraseña = $_POST['contraseña'
+];
+
+// Crear la consulta SQL para insertar un nuevo usuario
+$sql = "INSERT INTO usuarios (nombre, email, contraseña) VALUES ('$nombre', '$email', '$contraseña')";
+
+// Ejecutar la consulta
+if ($conn->query($sql) === TRUE) {
+    echo "Registro de usuario exitoso.";
+} else {
+    echo "Error al registrar el usuario: " . $conn->error;
+}
+// Cerrar la conexión
+$conn->close();
