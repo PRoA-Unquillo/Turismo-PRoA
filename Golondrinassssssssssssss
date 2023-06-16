@@ -1,3 +1,387 @@
 Hola chiquiiiiiiiiissssssssssssssssssssssss
 hola pelo duro
 vagoooooos
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Borrado</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary fixed-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">PRoA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="background-color: rgb(223, 223, 223);">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 19px;">PRoA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Turismo
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Historia</a></li>
+                        <li><a class="dropdown-item" href="#">Espacios</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">qsy</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="sec" style="background-color: beige;">
+        <div class="sec1"> 
+            <h1 >
+                Titulo
+            </h1>
+            <p>
+                Sobre Nosotros
+            </p>
+
+        </div>
+    </section>
+
+    <section class="sec" style="background-color: beige;">
+        <div class="sec2">
+            <h1>
+                Historia
+            </h1>
+            <p>
+                Dentro de las estancias, las viviendas de aparceros y peones fueron conformando los primeros rancheríos y asentamientos, al tiempo que la región iba ganando fama por las bondades de su paisaje, con solares y arroyos ideales para disfrutar en verano. Con el nuevo siglo, la actividad turística se desarrolla en la provincia con gran impulso. El gobierno invierte en infraestructura, construyendo puentes y mejorando los caminos, mientras inician los primeros loteos cerca de los arroyos. La traza urbana se desarrolló hacia el norte de la estación.
+
+ Familias de inmigrantes llegadas en esos años establecieron los primeros comercios subiendo por el camino principal hasta la actual Plaza Além. La estación recibía formaciones de hasta seis coches con locomotora a vapor. Con el cierre del ramal ferroviario la actividad turística se resiente y lentamente el pueblo va dejando paso a la ciudad. Entre la década del 70 y 80 la fabricación de calzados y la industria frigorífica se transforman en la principal actividad económica.
+
+ En el cambio de siglo la ciudad se transforma con la participación activa de la comunidad en la construcción de una identidad renovada. La ciudadanía unquillense se expresa habitando los espacios comunitarios, participando, decidiendo y diseñando la ciudad, enfrentando los desafíos del crecimiento urbano con conciencia ambiental, poniendo en valor tradiciones e identidades con una pujante vida cultural.
+            </p>
+        </div>
+    </section>
+
+    <section class="sec" style="background-color: beige;">
+        <div class="sec3">
+            <h2>
+                Espacios verdes
+            </h2>
+            <p>
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Parque Integrador</h5>
+                      <p class="card-text">Parque Integrador:17 de Octubre 448,Unquillo,Cordoba Accesibilidad
+                        Entrada con acceso para silla de ruedas
+                        Estacionamiento con acceso para silla de ruedas
+                        Actividades Senderismo
+                        Servicios Cancha de voleibol
+                        Columpios
+                        Ideal para ir con niños
+                        Mesas de pícnic
+                        Sanitario público
+                        Se permiten perros
+                        Toboganes
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plaza Alem</h5>
+                      <p class="card-text">Plaza Alem :Avenida San Martín 1600,Unquillo,Cordoba,Argentina 
+                        Accesibilidad
+                        Entrada con acceso para silla de ruedas
+                        Estacionamiento con acceso para silla de ruedas Servicios
+                        Columpios
+                        Ideal para ir con niños
+                        Se permiten perros
+                        Toboganes
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Polideportivo</h5>
+                      <p class="card-text">polideportivo San Martín (forcheri) Polideportivo San Martín(forcheri):Echeverría 80,X5000 Unquillo,Cordoba 
+                        Accesibilidad
+                        Entrada con acceso para silla de ruedas
+                        Estacionamiento con acceso para silla de ruedas
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Casita Verde</h5>
+                        <p class="card-text">casita verde Bella vista,Unquillo,Cordoba 
+                            Accesibilidad
+                            Estacionamiento con acceso para silla de ruedas
+                            Servicios
+                            Sanitario
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Los Quebrachitos</h5>
+                        <p class="card-text">La Reserva Hídrica Recreativa Natural y Municipal Los Quebrachitos es un espacio que tiene como objetivo promover actividades de conservación, educación e investigación sobre los recursos naturales locales. Ubicada a unos ocho kilómetros del centro de Unquillo, linda con el Pan de Azúcar y la surcan dos cursos de agua: el Río Cabana (el más importante de la zona) y el arroyo Santa Marta
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cerro Pan de Azucar/h5>
+                        <p class="card-text">El Cerro Pan de Azúcar es un cerro ubicado en la Sierras chicas,Cordoba Argentina 
+                            Las Sierras Chicas es un cordón montañoso argentino,perteneciente a las Sierras de Cordoba al noroeste de la Ciudad de Cordoba en la Provincia homónima al este del Valle de punilla.Los comechingones denominaban Viarava a esta cordillera.
+                            Ideal para ir con niños
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Semillero</h5>
+                        <p class="card-text">Semillero Unquillo(los pinos) GAONA,25 de mayo,Unquillo,Cordoba 
+                            Espacio para compartir en familia Cancha de fútbol
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="card h-100">
+                        <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Castillo Monserrat</h5>
+                          <p class="card-text">Villa CASTILLO MONSERRAT ubicado en Unquillo 960 Almirante Brown de Unquillo a la distancia de 2.5 km del centro.
+                            Pista de tenis, Campo de golf (a menos de 3 km), Pesca, Senderismo, Ciclismo, Equitación, Tours a pie, Música / espectáculos en directo
+                            Zona de juegos para niños
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cancha de los Pinos</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Plaza Herbera</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+
+        </div>
+    </section>
+
+    <section class="sec" style="background-color: beige;">
+        <div class="sec4"> 
+            <h2>
+                Arte
+            </h2>
+
+            <p>
+                Unquillo es el hogar de los artistas de las sierras chicas, por ende tenemos muchos lugares donde ellos se pueden expresar.
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Museo de Arte Contemporáneo de Unquillo</h5>
+                      <p class="card-text">Museo autogestivo destinado a exposiciones, visitas y participación cultural.
+                        Horarios:
+                        Viernes 16 a 19hs
+                        Sábados y domingos 10 a 13hs / 16 a 19hs
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Casa museo Spilimbergo                   
+                      </h5>
+                      <p class="card-text">Casa donde habitó Spilimbergo (1952/1964). 
+                        Desde 1970, es un museo municipal dedicado a las artes visuales
+                        horarios:
+                        jueves a domingos 10 a 20hs
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">La MInerita</h5>
+                      <p class="card-text">Centro cultural y bar donde diferentes artistas vienen a cantar y tocar música, fue construido comunitariamente y su espacio sigue expandiéndose para una mejor experiencia
+                        horarios:
+                        lunes a sábados 9 a 20hs
+                        domingos 24hs
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Museo Rivolta</h5>
+                        <p class="card-text">es un museo sobre el artista rivolta y un centro cultural que permite a muchos artistas dar talleres y presentaciones
+                            horarios:
+                            jueves a domingos 10 a 18hs
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Rincon Teatro</h5>
+                        <p class="card-text">This is a short card.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cine Teatro Unquillo</h5>
+                        <p class="card-text">Cine Teatro Municipal Rivadavia - Espacio INCAA Unquillo - Sala 3D
+                            aquí puedes ver todo tipo de peliculas y espectáculos de los artistas de la zona
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+    </section>
+
+    <section class="sec" style="background-color: beige;">
+        <div class="sec4"> 
+            <h2>
+                Famosos
+            </h2>
+
+            <p>
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Guido Buffo</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">David Nalbandian</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Raly Barrionuevo</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Quirino Cristiani</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Lino Spilimbergo</h5>
+                        <p class="card-text">This is a short card.</p>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="">
+        <h2>
+          pie de pagina
+        </h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus voluptatibus omnis odit facere, necessitatibus debitis at aspernatur voluptatum quasi eius. Reiciendis molestiae adipisci cumque beatae, consequuntur voluptatum placeat eum?
+        </p>
+      </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
