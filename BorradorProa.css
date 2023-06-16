@@ -3,12 +3,38 @@
     font-family: sans-serif;
 }
 
-.container-fluid{
-    background-color: rgb(73, 157, 254);
+h3{
+    padding: 50px;
 }
 
 .sec{
     margin: 10px;
     padding: 100px;
     font-family: sans-serif;
+}
+
+#sec1{
+    height: 1000px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(Proa-transito-4-102-x576.jpg);
+}
+
+.carousel-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#principal{
+    opacity: 80%; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 250px;
+    background-image: url(Proa-transito-4-102-x576.jpg);
+}
+
+
+.texto1{
+    opacity: 90%;
+    color: black;
 }
