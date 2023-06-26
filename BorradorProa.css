@@ -20,17 +20,11 @@ h3{
 }
 
 .carousel-container{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 
 #principal{
     background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-
-.texto1{
-    opacity: 90%;
-    color: black;
+    width: 100%;
 }
