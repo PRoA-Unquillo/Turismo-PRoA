@@ -1,1 +1,36 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
 
+h3{
+    padding: 50px;
+}
+
+.sec{
+    margin: 10px;
+    padding: 100px;
+    font-family: sans-serif;
+}
+
+#sec1{
+    height: 1000px;
+    text-align: center;
+    padding: 30px;
+}
+
+.carousel-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#principal{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.texto1{
+    opacity: 90%;
+    color: black;
+}
