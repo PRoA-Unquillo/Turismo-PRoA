@@ -1,1 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Borrador</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-blue bg-primary fixed-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                PRoA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="background-color: rgb(223, 223, 223);">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 19px;">PRoA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#principal">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Turismo
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#arte">Arte</a></li>
+                        <li><a class="dropdown-item" href="#Espacio">Espacios Verdes</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">qsy</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <article>
 
+    <div>
+        <section class="sec" id="principal" style="background-image: url(7d924fc9-fa4c-4985-8260-7d69d06de97d.jpg);">
+            <div id="sec1">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="texto1">
+                    ¿Quiénes somos?
+                </h1>
+                <h3 class="texto1">
+                    Somos estudiantes de PRoA Unquillo, una escuela nueva con orientación en informática y programación. Trabajamos en el proyecto "Capacitaciones que Emplean", a raíz de esto, creamos este sitio web. La idea de nuestro trabajo es informar sobre nuestra localidad; cultura, espacios verdes, historia, entre otros.
+                </h3>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="carousel-container" id="carrousel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="WhatsApp Image 2023-06-09 at 8.48.05 AM.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="WhatsApp Image 2023-06-09 at 8.48.06 AM.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="d2fcd9c4-0612-4135-aea6-0e7e4f93cf72.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <section class="sec" id="Espacio" style="background-color: lightgray;">
+        <div id="sec3">
+            <h2>
+                Espacios verdes
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laborum placeat nostrum, deleniti eius, ratione odio necessitatibus illum laudantium repellendus modi labore quos iure dolor fugiat, porro facere magnam perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem earum provident illo nisi ullam necessitatibus at cupiditate nihil commodi, facere, velit alias assumenda. Repellat repellendus dolorum praesentium tenetur itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae error et aliquid asperiores a delectus quas debitis, illo quidem praesentium quae, quisquam rerum omnis impedit, soluta placeat repellat ullam?
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plaza Alem</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Parque Integrador</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Polideportivo</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Casita Verde</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Los Quebrachitos</h5>
+                        <p class="card-text">This is a short card.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Municipalidad</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pan de Azucar</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="card h-100">
+                        <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Castillo Monserrat</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cancha de los Pinos</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="IMG-20210403-WA0011.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Plaza Herbera</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+
+        </div>
+    </section>
+
+    <section class="sec" id="arte" style="background-color: lightgray;">
+        <div id="sec4"> 
+            <h2>
+                Arte
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eveniet eius similique officiis ad temporibus impedit nobis ipsum blanditiis enim? Iste accusamus voluptatibus aliquid excepturi quos! Veniam omnis impedit natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati voluptatum distinctio omnis natus suscipit doloribus alias, cupiditate dolorem, libero sed minima delectus expedita soluta repudiandae cum praesentium temporibus. Sit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore deleniti quos cumque itaque officiis ipsum illo corrupti similique unde sequi, sunt aut, sit quae, adipisci quisquam ad veritatis vero officia.
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Macu</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Museo Spilimbergo</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="descarga.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">La MInerita</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Museo Rivolta</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Rincon Teatro</h5>
+                        <p class="card-text">This is a short card.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cine Teatro Unquillo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="descarga.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cartel U</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+    </section>
+    </article>
+
+    <footer style="background-color: lightgray;">
+      <div class="sec">
+        <h2>
+          pie de pagina
+        </h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus voluptatibus omnis odit facere, necessitatibus debitis at aspernatur voluptatum quasi eius. Reiciendis molestiae adipisci cumque beatae, consequuntur voluptatum placeat eum?
+        </p>
+        <nav>
+            <a href=""> redes </a>
+            <br>
+            <a href=""> contacto </a>
+            <br>
+            <a href=""> 3 </a>
+        </nav>
+      </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
