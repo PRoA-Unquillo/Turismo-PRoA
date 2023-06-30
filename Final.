@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Final.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>UnquilloCity</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-blue bg-primary fixed-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-family: 'Franklin Gothic Medium';">
+                UnquilloCity</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="background-color: rgb(223, 223, 223);">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 19px;">PRoA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#principal">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sobre Unquillo
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#Espacio">Espacios Verdes</a></li>
+                        <li><a class="dropdown-item" href="#arte">Arte</a></li>
+                        <li><a class="dropdown-item" href="#artistas">Artistas</a></li>
+                        <li><a class="dropdown-item" href="#historia">Historia</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <article>
+
+
+
+    
+
+    <div>
+        <section class="sec" id="principal" style="background-image: url(1-Quienes\ Somos.jpeg);">
+            <div id="sec1" style="color: beige;">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="texto1">
+                    ¿Quiénes somos?
+                </h1>
+                <h3 class="texto1">
+                    Somos estudiantes de PRoA Unquillo, una escuela nueva con orientación en informática y programación. Trabajamos en el proyecto "Capacitaciones que Emplean", a raíz de esto, creamos este sitio web. La idea de nuestro trabajo es informar sobre nuestra localidad; cultura, espacios verdes, historia, entre otros.
+                </h3>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="carousel-container" id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="WhatsApp Image 2023-06-09 at 8.48.06 AM.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="d2fcd9c4-0612-4135-aea6-0e7e4f93cf72.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <section class="sec" id="Espacio" style="background-color: lightgray;">
+        <div id="sec2">
+            <h2>
+                Espacios verdes
+            </h2>
+            <h5>
+                Unquillo, un pintoresco pueblo ubicado en la provincia de Córdoba, Argentina, es un verdadero paraíso para los amantes de la naturaleza y los espacios verdes. Rodeado de majestuosas sierras y exuberantes paisajes, este encantador rincón se destaca por su gran cantidad de áreas naturales que invitan a la tranquilidad y el disfrute al aire libre.
+            </h5>
+            <br>
+            <br>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <img src="7-Municipalidad.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Municipalidad</h5>
+                    <p class="card-text">Avenida San Martín 2186,centro,unquillo,Cordoba Entrada con acceso para silla de ruedas Estacionamiento con acceso para silla de ruedas</p>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img src="4-Polideportivo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Polideportivo</h5>
+                      <p class="card-text">Echeverría 80,X5000 Unquillo,Cordoba 
+                        Accesibilidad
+                        Entrada con acceso para silla de ruedas
+                        Estacionamiento con acceso para silla de ruedas
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                      <img src="5-Casita verde.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Casita Verde</h5>
+                        <p class="card-text">Bella vista,Unquillo,Cordoba 
+                          Accesibilidad
+                          Estacionamiento con acceso para silla de ruedas
+                          Servicios
+                          Sanitario
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="10-Plaza los Pinos.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Cancha de los Pinos</h5>
+                        <p class="card-text">GAONA,25 de mayo,Unquillo,Cordoba 
+                          La cancha es municipal donde niños/niñas de todas las edades se juntan a jugar por las tardes al fútbol, es reconocida por los locales como la cancha de los pinos ya que esta rodeada de enormes pinos que la caracterizan. En frente de la cancha se encuentra la plaza triangular o plaza los pinos donde hay juegos como: amacas, una cancha de fútbol 5, tobogán y mesas</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img src="6-Quebrachitos.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Los Quebrachitos</h5>
+                        <p class="card-text">La Reserva Hídrica Recreativa Natural y Municipal Los Quebrachitos es un espacio que tiene como objetivo promover actividades de conservación, educación e investigación sobre los recursos naturales locales. Ubicada a unos ocho kilómetros del centro de Unquillo, linda con el Pan de Azúcar y la surcan dos cursos de agua: el Río Cabana (el más importante de la zona) y el arroyo Santa Marta</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img src="8-Pan de Azucar.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pan de Azucar</h5>
+                        <p class="card-text">El Cerro Pan de Azúcar es un cerro ubicado en la Sierras chicas,Cordoba Argentina 
+                          Las Sierras Chicas es un cordón montañoso argentino,perteneciente a las Sierras de Cordoba al noroeste de la Ciudad de Cordoba en la Provincia homónima al este del Valle de punilla.Los comechingones denominaban Viarava a esta cordillera.
+                          Ideal para ir con niños
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <img src="3-Parque Integrador.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Parque Integrador</h5>
+                        <p class="card-text">17 de Octubre 448,Unquillo,Cordoba Accesibilidad
+                          Entrada con acceso para silla de ruedas
+                          Estacionamiento con acceso para silla de ruedas
+                          Actividades Senderismo
+                          Servicios Cancha de voleibol
+                          Columpios
+                          Ideal para ir con niños
+                          Mesas de pícnic
+                          Sanitario público
+                          Se permiten perros
+                          Toboganes
+                          </p>
+                      </div>
+                    </div>
+                  </div>  
+                  <div class="col">
+                      <div class="card h-100">
+                        <img src="9-Castillo Moneserrat.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Castillo Monserrat</h5>
+                          <p class="card-text">Villa CASTILLO MONSERRAT ubicado en Unquillo 960 Almirante Brown de Unquillo a la distancia de 2.5 km del centro.
+                            Pista de tenis, Campo de golf (a menos de 3 km), Pesca, Senderismo, Ciclismo, Equitación, Tours a pie, Música / espectáculos en directo
+                            Zona de juegos para niños
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="11-Herbera.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Plaza Herbera</h5>
+                            <p class="card-text">La plaza es muy conocida por los locales ya que es muy hermosa y turística tanto para adultos, adolescentes y niños, ya que tiene juegos para niños como un tobogán enorme, amacas, trepadores; para adultos y adolescentes hay numerosas ferias y ventas que se realizan en la plaza
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img src="2-Plaza Alem.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body h-100">
+                            <h5 class="card-title">Plaza Alem</h5>
+                            <p class="card-text">Avenida San Martín 1600,Unquillo,Cordoba,Argentina 
+                              Accesibilidad
+                              Entrada con acceso para silla de ruedas
+                              Estacionamiento con acceso para silla de ruedas Servicios
+                              Columpios
+                              Ideal para ir con niños
+                              Se permiten perros
+                              Toboganes
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+
+        </div>
+    </section>
+
+    <section class="sec" id="arte" style="background-color: lightgray;">
+        <div id="sec3"> 
+          <h2>
+            Arte
+        </h2>
+        <h5>
+          Unquillo es un pueblo conocido por su gran comunidad artística y cultural. En él, se pueden encontrar una gran cantidad de talleres y espacios de trabajo para artistas de diversas disciplinas, como pintores, escultores, músicos y escritores. Además, la ciudad cuenta con varios eventos culturales a lo largo del año, como ferias de arte y música en vivo, que atraen a visitantes de toda la región.
+        </h5>
+        <br>
+        <br>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="12-MACU.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Macu</h5>
+                <p class="card-text">Museo autogestivo destinado a exposiciones, visitas y participación cultural.
+                  Horarios:
+                  viernes	17:00–20:00
+                  sábado	10:00–13:00
+                  17:00–20:00
+                  domingo	10:00–13:00
+                  17:00–20:00
+                  lunes	Cerrado
+                  martes	Cerrado
+                  miércoles	Cerrado
+                  jueves	Cerrado
+                  Para más información: 0351 15-627-4053
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="13-Spilinbergo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Museo Spilimbergo</h5>
+                <p class="card-text">Casa donde habitó Spilimbergo (1952/1964). 
+                  Desde 1970, es un museo municipal dedicado a las artes visuales
+                  horarios:
+                  jueves a domingos 10 a 20hs
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="14-La Minerita.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">La Minerita</h5>
+                <p class="card-text">Centro cultural y bar donde diferentes artistas vienen a cantar y tocar música, fue construido comunitariamente y su espacio sigue expandiéndose para una mejor experiencia
+                  horarios:
+                  lunes a sábados 9 a 20hs
+                  domingos 24hs                  
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                <img src="15-Rivolta.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Museo Rivolta</h5>
+                  <p class="card-text">Casa Museo y Centro Cultural Rivolta
+                    La Casa Museo Rivolta, en unquillo, exhibe obra de arte de la familia del pintor y funciona como un centro de actividades culturales.
+                   Horarios:
+                   viernes	10:00–18:00
+                   sábado	10:00–18:00
+                   domingo	10:00–18:00
+                   lunes	Cerrado
+                   martes	Cerrado
+                   miércoles	Cerrado
+                   Ubicación: 
+                   Av. San Martín ACF Unquillo Córdoba AR, centro 3119, X5109
+                   Para más información:03543610255
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="16-Cine Teatro.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cine Teatro Unquillo</h5>
+                  <p class="card-text">Cine Teatro Municipal Rivadavia - Espacio INCAA Unquillo - Sala 3D
+                    aquí puedes ver todo tipo de peliculas y espectáculos de los artistas de la zona
+                    Ubicación: Av. San Martín 1505
+                    Horarios: Miércoles a Domingo  de 16 a 23 hs
+                    Para más información: 3543579744
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+        </div>
+    </section>
+
+
+    <section class="sec" id="artistas" style="background-color: lightgray;">
+        <div id="sec4"> 
+          <h2>
+            Celebridades
+        </h2>
+        <h5>
+          Unquillo alberga una comunidad vibrante y creativa de artistas. Sus calles y paisajes inspiradores han cautivado a numerosos talentos locales. Los artistas de Unquillo deslumbran con su diversidad y originalidad, explorando diversas disciplinas como la pintura, la escultura, la cerámica y la fotografía. Sus obras reflejan la rica historia y cultura de la región, así como su espíritu innovador y vanguardista. A través de exposiciones, talleres y festivales, los artistas de Unquillo comparten su pasión por el arte, enriqueciendo la comunidad y dejando una huella duradera en el corazón de quienes los descubren.
+        </h5>
+        <br>
+        <br>
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Lino Spilinbergo.jpeg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Lino Spilinbergo</h5>
+                <p class="card-text">Lino Spilimbergo fue un pintor argentino nacido en 1896 y fallecido en 1964. Su estilo realista y su formación clásica influyeron en sus primeras obras, pero luego se unió al movimiento de renovación impulsado por la revista Martín Fierro. Ganó premios y viajó a Europa para ampliar su formación artística. Fue profesor y director del Instituto de Artes de la Universidad de Tucumán. Su obra se caracteriza por el dibujo sólido, la visión plástica y el equilibrio estructural, centrándose en la realidad cotidiana, la figura humana y el paisaje. Algunas de sus obras más conocidas son "Terraza", "La planchadora", "Paisaje de Chilecito" y "La Chacra".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Guido Buffo.jpeg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Guido Buffo</h5>
+                <p class="card-text">Guido Buffo fue un pintor y astrólogo nacido en Italia en 1885. Llegó a Argentina en 1910 y se estableció en las sierras cordobesas, donde realizó su primera exposición y se convirtió en profesor de Dibujo y Estética. En 1924 se radicó en Buenos Aires y ocupó el cargo de Inspector de Enseñanzas Secundarias. A lo largo de su vida, enfrentó la tragedia de la muerte de su esposa y su hija.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="David Nabandian.jpeg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">David Nabandian</h5>
+                <p class="card-text">David Nalbandian nació el 1° de enero de 1982 en Unquillo, Córdoba, Argentina. Comenzó a jugar al tenis a los 5 años y se convirtió en una promesa destacada. Ganó el US Open Juniors en 1998 y se convirtió en profesional en el 2000. Alcanzó el top 50 mundial al año siguiente y obtuvo victorias importantes contra jugadores como Roger Federer. En el 2005 ganó el Masters Series al derrotar a Federer en la final. En el 2006 alcanzó la posición número 3 del ranking mundial y llevó a Argentina a la final de la Copa Davis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="sec" id="historia" style="background-image: url(WhatsApp\ Image\ 2023-06-30\ at\ 12.03.35\ AM.jpeg);">
+      <div style="padding: 70px; text-align: center; color: white;">
+        <h2>
+          Historia
+        </h2>
+        <h3>
+          Unquillo nace de asentamientos de aparceros y peones en estancias, como un pueblo rural. A inicios del siglo XX, el turismo creció con infraestructura y la llegada del ferrocarril en 1913. Con el cierre del ramal en 1969, la actividad turística se resintió, pero el pueblo se transformó en ciudad con industria de calzado y frigorífico. Unquillo participa activamente en la construcción de una identidad renovada, preservando tradiciones y fomentando una vida cultural pujante
+        </h4>
+      </div>
+    </section>
+
+
+    </article>
+
+
+    <footer style="background-color: rgb(230, 230, 230); color: rgb(192, 192, 192); height: 10px;">
+      <div class="sec" style="text-align: center;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p>
+          2023 PRoA Inc. Derechos Reservados
+        </p>
+        <br>
+        <br>
+        <a href="formulario.html">
+          <p>
+            Buzón de sugerencias
+          </p>
+        </a>
+
+      </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
