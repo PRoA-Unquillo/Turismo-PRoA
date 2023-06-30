@@ -8,6 +8,7 @@ h3{
 }
 
 .sec{
+    width: 1330px;
     margin: 10px;
     padding: 100px;
     font-family: sans-serif;
@@ -27,4 +28,11 @@ h3{
 #principal{
     background-repeat: no-repeat;
     width: 100%;
+}
+
+@media screen and (max-width:550pxs) {
+    .sec{
+        height: 50%;
+        color: red;
+    }
 }
